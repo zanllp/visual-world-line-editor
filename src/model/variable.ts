@@ -11,9 +11,9 @@ export class Variable<T> extends BaseModel {
   ) {
     super()
     if (typeof this.val === 'number') {
-      Variable.InstNumberVariablePoll.push(this as unknown as Variable<number>)
+      Variable.InstNumberVariablePool.push(this as unknown as Variable<number>)
     }
   }
 
-  static InstNumberVariablePoll = new Array<Variable<number>>()
+  static InstNumberVariablePool = new Array<Variable<number>>()
 }

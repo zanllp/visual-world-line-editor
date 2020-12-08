@@ -15,9 +15,9 @@ export class Controller extends BaseModel {
   }
 
   public next (curr: Scene) {
-    const { InstNumberVariablePoll } = Variable
+    const { InstNumberVariablePool } = Variable
     return this.rule
-      .map(r => r(curr, InstNumberVariablePoll))
+      .map(r => r(curr, InstNumberVariablePool))
       .filter(scene => scene) as Scene[]
   }
 }
