@@ -21,7 +21,7 @@ export class Scene extends BaseModel {
   public nextScene () {
     const { next } = this
     if (!next) {
-      return
+      return null
     }
     if (next instanceof Scene) {
       return next
