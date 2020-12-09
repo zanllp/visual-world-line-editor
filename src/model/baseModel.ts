@@ -1,9 +1,9 @@
 export class BaseModel {
-  public id: number;
-  constructor (
-  ) {
-    this.id = ++BaseModel.incrId
-  }
+    public id: number
+    constructor (
+    ) {
+      this.id = ++BaseModel.incrId
+    }
 
-  static incrId = 0
+    static incrId = 0
 }

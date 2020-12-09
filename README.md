@@ -1,5 +1,6 @@
 # visual-world-line-editor
-
+![](https://github.com/zanllp/visual-world-line-editor/workflows/build/badge.svg)
+![](https://github.com/zanllp/visual-world-line-editor/workflows/ci/badge.svg)
 ## Project setup
 ```
 yarn install
