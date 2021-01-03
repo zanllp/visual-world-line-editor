@@ -1,5 +1,5 @@
 export class BaseModel {
-    public id: number
+    public readonly id: number
     constructor (
     ) {
       this.id = ++BaseModel.incrId

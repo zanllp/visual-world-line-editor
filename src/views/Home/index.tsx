@@ -1,7 +1,6 @@
 import './index.scss'
-import { Node } from '@/views/Node'
+import { CanvasBackground } from '../CanvasBackground'
+
 export default () => (
-  <div class="home">
-    <Node/>
-  </div>
+  <CanvasBackground />
 )
