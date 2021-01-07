@@ -10,10 +10,7 @@ describe('useRequireCallback', () => {
     test4?: Fn;
   } = {
     onTest0: () => 1,
-    onTest1: (a: number) => a + 1,
-    onTest2: undefined,
-    onTest3: undefined,
-    test4: undefined
+    onTest1: (a: number) => a + 1
   }
   const { onTest0, onTest1, onTest2, onTest3, test4 } = useRequireCallback(
     props
